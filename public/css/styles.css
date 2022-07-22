@@ -2,3 +2,8 @@ h1 {
     text-align: center;
     color: cornflowerblue;
 }
+
+img {
+    max-width: 100vh;
+    max-height: 65vh;
+}
