@@ -3,9 +3,13 @@ h1 {
     color: cornflowerblue;
 }
 
+h2 {
+    text-align: center;
+    color: lightblue;
+}
+
 img {
-    max-width: 100vh;
-    max-height: 65vh;
+    max-width: 75vh;
 }
 
 nav {
