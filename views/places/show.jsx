@@ -24,15 +24,20 @@ function show(data) {
                 <h2>comments</h2>
                 <p className="text-center">currenty no comments</p>
             </main>
-            <a href={`/places/${data.id}/edit`} className="btn btn-warning">
-                Edit
-            </a>
-            <form method="POST" action={`/places/${data.id}?_method=DELETE`}>
-                <button type="submit" className="btn btn-danger">
-                    Delete
-                </button>
-            </form>
-
+            <div className='row'>
+                <div className='col-sm-6'>
+                    <a href={`/places/${data.id}/edit`} className="btn btn-warning">
+                        Edit
+                    </a>
+                </div>
+                <div className='col-sm-6'>
+                    <form method="POST" action={`/places/${data.id}?_method=DELETE`}>
+                        <button type="submit" className="btn btn-danger">
+                            Delete
+                        </button>
+                    </form>
+                </div>
+            </div>
         </Def>
     )
 }
