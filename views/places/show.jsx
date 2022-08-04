@@ -63,20 +63,20 @@ function show(data) {
                     <label htmlFor="content">Content</label>
                     <textarea className="form-control" id="content" name="content" />
                     <div className="row">
-                        <div className="form-group col-sm-6">
+                        <div className="form-group col-sm-4">
                             <label htmlFor="author">Author</label>
                             <input className="form-control" id="author" name="author" />
                         </div>
-                        <div className="form-group col-sm-6">
+                        <div className="form-group col-sm-4">
                             <label htmlFor="starts">Star Rating</label>
                             <input type="range" step="0.5" min="1" max="5" className="form-control" id="stars" name="stars" />
                         </div>
                         {/* checkbox will not go onto the same row as above so made a seperate line */}
-                        <br />
-
-                        <label htmlFor="rant">Rant? </label>
-                        <input type="checkbox" value="rant" id="rant" />
-
+                        <div className="form-group col-sm-4">
+                            <label htmlFor="rant">Rant?</label>
+                            <br />
+                            <input type="checkbox" value="rant" id="rant" />
+                        </div>
                     </div>
                     <br />
                     <input type="submit" className="btn btn-primary" value="Add Comment" />
