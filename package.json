@@ -1,7 +1,7 @@
 {
   "name": "rest-rant",
   "version": "1.0.0",
-  "Engines": {
+  "engines": {
     "node": "16.14.0"
   },
   "description": "",
