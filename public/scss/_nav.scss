@@ -1,0 +1,51 @@
+@import "config";
+@import "utilities";
+
+nav {
+    @include set-bg($primaryColor);
+    padding: 10px;
+
+    &:hover {
+        @include set-bg($hoverBackground);
+
+        a {
+            color: text-color-picker($hoverBackground);
+
+            &:hover {
+                color: $primaryColor;
+                text-decoration: none;
+            }
+
+            ;
+        }
+    }
+
+    ;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+
+    ;
+
+    li {
+        display: inline;
+        margin-right: 25px;
+    }
+
+    ;
+
+    a {
+        color: text-color-picker($primaryColor);
+        font-size: 1.5em;
+
+        &:hover {
+            color: $hoverColor;
+            text-decoration: none;
+        }
+    }
+
+    ;
+
+}

@@ -1,0 +1,29 @@
+@import "config";
+@import "nav";
+
+h1 {
+    text-align: $alignment;
+    color: $primaryColor;
+}
+
+h2 {
+    text-align: $alignment;
+    color: $secondaryColor;
+}
+
+img {
+    max-width: 75vh;
+}
+
+;
+
+body {
+    background-color: $secondaryColor;
+    text-align: $alignment;
+}
+
+main {
+    margin-right: $margin;
+    margin-left: $margin;
+    background-color: $mainColor;
+}

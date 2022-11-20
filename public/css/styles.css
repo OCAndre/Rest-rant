@@ -1,49 +1,57 @@
+nav {
+  background-color: cornflowerBlue;
+  color: white;
+  padding: 10px;
+}
+nav:hover {
+  background-color: lightgray;
+  color: black;
+}
+nav:hover a {
+  color: black;
+}
+nav:hover a:hover {
+  color: cornflowerBlue;
+  text-decoration: none;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  margin-right: 25px;
+}
+nav a {
+  color: white;
+  font-size: 1.5em;
+}
+nav a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
 h1 {
-    text-align: center;
-    color: cornflowerblue;
+  text-align: center;
+  color: cornflowerBlue;
 }
 
 h2 {
-    text-align: center;
-    color: lightblue;
+  text-align: center;
+  color: lightBlue;
 }
 
 img {
-    max-width: 75vh;
-}
-
-nav {
-    background-color: cornflowerblue;
-    padding: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 25px;
-}
-
-nav a {
-    color: white;
-    font-size: 1.5em;
-}
-
-nav a:hover {
-    color: pink;
-    text-decoration: none;
+  max-width: 75vh;
 }
 
 body {
-    background-color: lightblue;
-    text-align: center;
+  background-color: lightBlue;
+  text-align: center;
 }
 
 main {
-    margin-right: 20px;
-    margin-left: 20px;
-    background-color: white;
-}
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+}/*# sourceMappingURL=styles.css.map */
